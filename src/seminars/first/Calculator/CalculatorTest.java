@@ -1,5 +1,7 @@
 package seminars.first.Calculator;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 // import seminars.first.Calculator.Calculator;
 
 // import static org.assertj.core.api.Assertions.*;
@@ -78,5 +80,11 @@ public class CalculatorTest {
         // assert 0 == seminars.first.Calculator.Calculator.calculation(2, 6, '+');
         // assertThat(seminars.first.Calculator.Calculator.calculation(2, 6,
         // '+')).isEqualTo(0);
+
+        assertThat(Calculator.calculatingDiscount(100, 10)).isEqualTo(90);
+        assertThat(Calculator.calculatingDiscount(1000, 20)).isEqualTo(700);
+        // Exception in thread "main" java.lang.AssertionError:
+        // expected: 700.0
+        // but was: 800.0
     }
 }

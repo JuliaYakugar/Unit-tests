@@ -1,5 +1,7 @@
 package seminars.first.Calculator;
 
+import static org.assertj.core.api.Assertions.*;
+
 public class Calculator {
     public static int calculation(int firstOperand, int secondOperand, char operator) {
         int result;
@@ -44,8 +46,6 @@ public class Calculator {
     // проверить его, используя AssertJ
     // Примерная сигнатура и тело метода:
     public static double calculatingDiscount(double purchaseAmount, int discountAmount) {
-        // purchaseAmount - сумма покупки
-        // discountAmount - размер скидки
-        return 0; // Метод должен возвращать сумму покупки со скидкой
+        return purchaseAmount * 0.01 * (100 - discountAmount);
     }
 }
