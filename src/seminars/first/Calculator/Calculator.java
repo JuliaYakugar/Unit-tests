@@ -1,7 +1,5 @@
 package seminars.first.Calculator;
 
-import static org.assertj.core.api.Assertions.*;
-
 public class Calculator {
     public static int calculation(int firstOperand, int secondOperand, char operator) {
         int result;
