@@ -36,7 +36,6 @@
       <root url="jar://$PROJECT_DIR$/libs/selenium-java-4.11.0/selenium-devtools-v115-4.11.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/libs/selenium-java-4.11.0/selenium-safari-driver-4.11.0-sources.jar!/" />
     </CLASSES>
-    <JAVADOC />
     <SOURCES />
   </library>
 </component>
