@@ -82,9 +82,6 @@ public class CalculatorTest {
         // '+')).isEqualTo(0);
 
         assertThat(Calculator.calculatingDiscount(100, 10)).isEqualTo(90);
-        assertThat(Calculator.calculatingDiscount(1000, 20)).isEqualTo(700);
-        // Exception in thread "main" java.lang.AssertionError:
-        // expected: 700.0
-        // but was: 800.0
+        assertThat(Calculator.calculatingDiscount(1000, 20)).isEqualTo(800);
     }
 }
